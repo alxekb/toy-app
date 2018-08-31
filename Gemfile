@@ -10,6 +10,8 @@ gem 'rails', '~> 5.2.1'
 gem 'pg'
 gem 'bootstrap'
 gem 'jquery-rails'
+gem 'haml-rails', '~> 1.0'
+gem 'high_voltage', '~> 3.1'
 # Use Puma as the app server
 gem 'puma', '~> 3.11'
 # Use SCSS for stylesheets
