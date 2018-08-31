@@ -1,0 +1,7 @@
+.container.py-4
+  .form.form
+    %h1 Editing Micropost
+    = render 'form', micropost: @micropost
+    = link_to 'Show', @micropost
+    |
+    #{link_to 'Back', microposts_path}
